@@ -120,56 +120,48 @@ export function ExperienceTimeline() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="py-20 px-6 relative overflow-hidden">
+    <section ref={sectionRef} className="py-16 md:py-20 px-4 md:px-6 relative overflow-hidden">
       <div className="absolute inset-0 -z-10 opacity-20">
         <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float" />
       </div>
 
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-5xl font-bold mb-4">Work Experience.</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-4 md:mb-8">Work Experience.</h2>
 
-        <div className="relative mt-16">
-          {/* Timeline vertical line */}
+        <div className="relative mt-8 md:mt-16">
           <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-border/50 -translate-x-1/2 hidden md:block" />
 
-          <div className="space-y-16">
+          <div className="space-y-8 md:space-y-16">
             {experiences.map((exp, index) => (
               <div
                 key={index}
-                className={`timeline-card opacity-0 relative flex items-start gap-8 ${
+                className={`timeline-card opacity-0 relative flex flex-col md:flex-row md:items-start gap-6 md:gap-8 ${
                   index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
                 }`}
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
                 {/* Content Card */}
                 <Card
-                  className={`flex-1 p-6 hover:border-primary/50 hover:shadow-lg transition-all duration-300 ${
+                  className={`flex-1 p-4 md:p-6 hover:border-primary/50 hover:shadow-lg transition-all duration-300 ${
                     index % 2 === 0 ? "md:text-right" : "md:text-left"
                   }`}
                 >
-                  <h3 className="text-xl font-bold mb-1">{exp.role}</h3>
-                  <p className="text-muted-foreground font-medium mb-2">{exp.company}</p>
+                  <h3 className="text-lg md:text-xl font-bold mb-1">{exp.role}</h3>
+                  <p className="text-sm md:text-base text-muted-foreground font-medium mb-2">{exp.company}</p>
+                  
                   <div className="flex flex-wrap gap-2 pt-2">
-                  {exp.tags.map((tag, i) => (
-                    <Badge key={i} variant="secondary">
-                      {tag}
-                    </Badge>
-                  ))}
-                </div>
-                  <ul className={`space-y-2 mt-4 ${index % 2 === 0 ? "md:text-right" : "md:text-left"}`}>
+                    {exp.tags.map((tag, i) => (
+                      <Badge key={i} variant="secondary">
+                        {tag}
+                      </Badge>
+                    ))}
+                  </div>
+
+                  <ul className={`space-y-2 mt-4 text-left`}>
                     {exp.highlights.map((highlight, i) => (
-                      <li key={i} className="text-sm text-muted-foreground flex items-start gap-2">
-                        {index % 2 === 0 ? (
-                          <>
-                            <span className="flex-1">{highlight}</span>
-                            <span className="h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0 mt-1.5" />
-                          </>
-                        ) : (
-                          <>
-                            <span className="h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0 mt-1.5" />
-                            <span className="flex-1">{highlight}</span>
-                          </>
-                        )}
+                      <li key={i} className="text-xs md:text-sm text-muted-foreground flex items-start gap-2">
+                        <span className="h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0 mt-1.5" />
+                        <span>{highlight}</span>
                       </li>
                     ))}
                   </ul>
@@ -189,7 +181,10 @@ export function ExperienceTimeline() {
               </div>
 
                 {/* Date */}
-                <div className={`flex-1 ${index % 2 === 0 ? "md:text-left" : "md:text-right"}`}>
+                <div className="md:hidden absolute -top-3 right-0 bg-primary text-primary-foreground text-xs font-medium px-3 py-1 rounded-full">
+                  {exp.period}
+                </div>
+                <div className={`hidden md:block flex-1 ${index % 2 === 0 ? "md:text-left" : "md:text-right"}`}>
                   <p className="text-sm font-medium text-white">{exp.period}</p>
                 </div>
               </div>
@@ -200,3 +195,5 @@ export function ExperienceTimeline() {
     </section>
   )
 }
+
+

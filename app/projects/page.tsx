@@ -1,5 +1,6 @@
 import { Navigation } from "@/components/navigation"
 import { ProjectsGrid } from "@/components/projects-grid"
+import { NightSky } from "@/components/night-sky"
 
 export const metadata = {
   title: "Projects | Afra Yasmeen",
@@ -9,6 +10,7 @@ export const metadata = {
 export default function ProjectsPage() {
   return (
     <div className="min-h-screen">
+      <NightSky />
       <Navigation />
       <main className="container mx-auto px-6 py-24">
         <div className="max-w-4xl">
@@ -22,7 +24,7 @@ export default function ProjectsPage() {
       </main>
       <footer className="border-t border-border/40 py-8 mt-24">
         <div className="container mx-auto px-6 text-center text-sm text-muted-foreground">
-          <p>© 2025 Afra Yasmeen. Built with Next.js and v0.</p>
+          <p>© 2025 Afra Yasmeen. Built with Next.js</p>
         </div>
       </footer>
     </div>
