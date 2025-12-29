@@ -32,7 +32,7 @@ export function About() {
 
       <div ref={sectionRef} className="container mx-auto max-w-5xl opacity-0">
         <h2 className="text-3xl font-bold mb-8">About</h2>
-        <div className="space-y-4 text-muted-foreground leading-relaxed">
+        <div className="space-y-4 text-neutral-900 leading-relaxed">
           <p>
             I specialize in artificial intelligence, machine learning, and data science with a proven track record of
             leading AI teams and delivering innovative solutions. Currently, I serve as an AI Team Leader at My Utility

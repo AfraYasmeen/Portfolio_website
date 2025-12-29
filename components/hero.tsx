@@ -31,30 +31,36 @@ export function Hero() {
       </div>
 
       <div className="container mx-auto max-w-5xl">
-        <div className="space-y-6 animate-slide-up">
-          <h1 className="text-6xl md:text-7xl font-bold text-balance bg-gradient-to-r from-foreground via-primary to-accent bg-clip-text text-transparent">
+        <div className="space-y-6 animate-slide-up print:text-black">
+          <h1 className="text-6xl md:text-7xl font-bold text-balance text-black">
             Afra Yasmeen
           </h1>
-          <p className="text-2xl md:text-3xl text-muted-foreground text-balance">
+
+          <p className="text-2xl md:text-3xl text-neutral-900 text-balance">
             AI Team Lead & Data Science Professional
           </p>
-          <p className="text-lg text-muted-foreground max-w-3xl text-pretty leading-relaxed">
+
+          <p className="text-lg text-neutral-800 max-w-3xl text-pretty leading-relaxed">
             MBA and MSc Data Science Graduate with 8+ years&apos; experience across Finance, Tax Consulting, Quality
             Risk Management, and AI Development. Hands-on experience in Python, ML, Data Analysis, Mining,
             Visualization, SAP HANA, Excel automation, Power BI and project leadership.
           </p>
-          <div className="flex flex-wrap gap-4 pt-4">
-            <Button size="lg" asChild className="group">
+
+          <div className="flex flex-wrap gap-4 pt-4 print:hidden">
+            <Button size="lg" asChild className="group text-black border-black">
               <Link href="/projects">
-                View Projects <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                View Projects
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" asChild>
+
+            <Button size="lg" variant="outline" asChild className="text-black border-black">
               <a href="mailto:Afra.yasmeen2024@gmail.com">Contact Me</a>
             </Button>
           </div>
         </div>
       </div>
+
     </section>
   )
 }

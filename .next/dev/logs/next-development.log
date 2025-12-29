@@ -1,0 +1,416 @@
+[00:00:01.683] Server  LOG     
+[00:00:01.684] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:01.684] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:01.684] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:01.685] Server  LOG     
+[00:00:01.685] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:01.685] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:01.685] Server  LOG     
+[00:00:01.855] Server  LOG      ✓ Ready in 1489ms
+[00:00:13.378] Server  LOG      ○ Compiling / ...
+[00:00:15.641] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.875] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:15.875] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:15.875] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767035054819}
+[00:08:01.260] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:01.442] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:01.442] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:01.442] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767035520390}
+[00:08:17.386] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:17.579] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:17.579] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:17.579] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767035536505}
+[00:09:17.448] Server  LOG      ✓ Compiled in 2.5s
+[00:09:17.688] Browser ERROR   ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:09:19.770] Server  ERROR    ⨯ ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:09:20.722] Browser ERROR   ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:09:22.923] Server  LOG      ○ Compiling /_error ...
+[00:09:31.309] Browser ERROR   ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:09:31.924] Browser ERROR   ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:09:38.963] Browser ERROR   ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:09:38.964] Browser ERROR   ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:09:38.964] Browser ERROR   uncaughtError: Error: ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:09:38.964] Browser ERROR   ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:09:56.672] Browser ERROR   ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:10:08.160] Server  ERROR    ⨯ ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:10:08.508] Browser ERROR   uncaughtError: Error: ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:10:08.729] Browser ERROR   ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:10:08.729] Browser ERROR   ./app/globals.css:1736:8
+Parsing CSS source code failed
+  1734 |   initial-value: 0;
+  1735 | }
+> 1736 | @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+       |        ^
+  1737 | :root {
+  1738 |   --background: oklch(0.98 0 0);
+  1739 |   --foreground: oklch(0.15 0 0);
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:10:22.718] Server  LOG      ✓ Compiled in 473ms
+[00:10:23.338] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:23.511] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:10:23.512] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:10:23.512] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767035662449}
+[00:13:43.788] Server  LOG      ✓ Compiled in 774ms
+[00:14:41.767] Server  LOG      ✓ Compiled in 147ms
+[00:14:45.379] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:45.558] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:45.558] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:14:45.558] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767035924499}
+[00:15:28.543] Server  LOG      ✓ Compiled in 35ms
+[00:15:38.748] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:38.929] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:38.929] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:15:38.929] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767035977876}
+[00:16:02.255] Server  LOG      ✓ Compiled in 111ms
+[00:23:15.348] Server  LOG      ✓ Compiled in 72ms
+[00:23:24.995] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:25.161] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:23:25.161] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:23:25.161] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767036444104}
+[00:28:42.239] Server  LOG      ✓ Compiled in 101ms
+[00:29:24.315] Server  LOG      ✓ Compiled in 87ms
+[00:29:32.996] Server  LOG      ✓ Compiled in 80ms
+[00:32:13.042] Server  LOG      ✓ Compiled in 118ms
+[00:32:19.191] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:19.373] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:32:19.373] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:32:19.373] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767036978316}
+[00:32:43.498] Server  LOG      ✓ Compiled in 199ms
+[00:32:47.421] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:47.566] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:32:47.566] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:32:47.566] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767037006513}
+[00:36:22.261] Server  LOG      ✓ Compiled in 107ms
+[00:36:53.792] Server  LOG      ✓ Compiled in 98ms
+[00:37:10.737] Server  LOG      ✓ Compiled in 89ms
+[00:38:15.682] Server  LOG      ✓ Compiled in 98ms
+[00:38:23.900] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:24.058] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:38:24.059] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:38:24.059] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767037343004}
+[00:41:38.273] Server  LOG      ✓ Compiled in 74ms
+[00:41:58.883] Server  LOG      ✓ Compiled in 64ms
+[00:44:36.164] Server  LOG      ✓ Compiled in 82ms
+[00:45:07.256] Server  LOG      ✓ Compiled in 175ms
+[00:45:25.106] Server  LOG      ✓ Compiled in 99ms
+[00:46:22.833] Server  LOG      ✓ Compiled in 100ms
+[00:46:43.514] Server  LOG      ✓ Compiled in 69ms
+[00:48:03.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:03.374] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:48:03.374] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:48:03.374] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767037922324}
+[00:49:30.875] Server  LOG      ✓ Compiled in 75ms
+[00:49:53.316] Server  LOG      ✓ Compiled in 76ms
+[00:50:06.938] Server  LOG      ✓ Compiled in 77ms
+[00:50:42.732] Server  LOG      ✓ Compiled in 137ms
+[00:52:20.418] Server  LOG      ✓ Compiled in 89ms
+[00:53:07.466] Server  LOG      ✓ Compiled in 88ms
+[00:53:16.736] Server  LOG      ✓ Compiled in 74ms
+[00:53:20.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:21.085] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:53:21.085] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:53:21.085] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767038240031}
+[00:53:23.666] Browser WARN    Image with src "http://localhost:3000/my-utility-genius-logo.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:53:23.666] Browser WARN    Image with src "http://localhost:3000/placeholder.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:53:40.331] Server  LOG      ✓ Compiled in 140ms
+[00:53:45.959] Server  LOG      ✓ Compiled in 89ms
+[00:54:57.716] Server  LOG      ✓ Compiled in 78ms
+[01:01:29.896] Server  LOG      ✓ Compiled in 106ms
+[01:02:02.875] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:03.063] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:02:03.064] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:02:03.064] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767038762015}
+[01:04:05.515] Server  LOG      ✓ Compiled in 542ms
+[01:04:28.696] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:28.899] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:04:28.899] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:04:28.899] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767038907842}
+[01:10:54.296] Server  LOG      ✓ Compiled in 132ms
+[01:11:05.826] Server  LOG      ✓ Compiled in 89ms
+[01:11:34.471] Server  LOG      ✓ Compiled in 99ms
+[01:11:42.817] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:11:42.998] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:11:42.998] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:11:42.998] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767039341952}
+[01:12:04.113] Server  LOG      ✓ Compiled in 209ms
+[01:12:53.943] Server  LOG      ✓ Compiled in 95ms
+[01:14:42.747] Server  LOG      ✓ Compiled in 33ms
+[01:15:31.055] Server  LOG      ✓ Compiled in 36ms
+[01:15:34.062] Server  LOG      ○ Compiling /_not-found/page ...
+[01:15:57.240] Server  LOG      ✓ Compiled in 94ms
+[01:16:36.620] Server  LOG      ✓ Compiled in 74ms
+[01:16:40.280] Server  LOG      ✓ Compiled in 57ms
+[01:19:08.920] Server  LOG      ✓ Compiled in 39ms
+[01:19:23.460] Server  LOG      ✓ Compiled in 86ms
+[01:21:03.408] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:21:03.602] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:21:03.602] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:21:03.602] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767039902553}
+[01:22:20.639] Server  LOG      ✓ Compiled in 54ms
+[01:22:42.649] Server  LOG      ✓ Compiled in 94ms
+[01:23:13.414] Server  LOG      ✓ Compiled in 60ms
+[01:24:32.292] Server  LOG      ✓ Compiled in 36ms
+[01:24:49.734] Server  LOG      ✓ Compiled in 140ms
+[01:24:55.050] Server  LOG      ✓ Compiled in 140ms
+[01:26:10.005] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:26:10.200] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:26:10.200] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:26:10.200] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767040209145}
+[01:27:00.540] Server  LOG      ✓ Compiled in 108ms
+[01:27:08.590] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:27:08.748] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:27:08.748] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:27:08.748] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767040267691}
+[01:57:49.402] Server  LOG      ✓ Compiled in 388ms
+[01:58:30.963] Server  LOG      ✓ Compiled in 144ms
+[01:58:56.576] Server  LOG      ✓ Compiled in 113ms
+[01:59:13.307] Server  LOG      ✓ Compiled in 99ms
+[02:00:50.540] Server  LOG      ✓ Compiled in 2.3s
+[02:00:50.666] Browser ERROR   uncaughtError: TypeError: can't access property "map", exp.tags is undefined
+[02:01:49.460] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:01:49.462] Server  LOG      ✓ Compiled in 83ms
+[02:01:51.485] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:01:51.765] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:01:51.766] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:01:51.766] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767042350682}
+[02:02:42.144] Server  LOG      ✓ Compiled in 103ms
+[02:02:54.943] Server  LOG      ✓ Compiled in 94ms
+[02:03:03.675] Server  LOG      ✓ Compiled in 61ms
+[02:04:55.426] Server  LOG      ✓ Compiled in 76ms
+[02:05:02.572] Server  LOG      ✓ Compiled in 46ms
+[02:05:24.389] Server  LOG      ✓ Compiled in 70ms
+[02:05:41.383] Server  LOG      ✓ Compiled in 73ms
+[02:06:49.299] Server  LOG      ✓ Compiled in 106ms
+[02:07:14.378] Server  LOG      ✓ Compiled in 84ms
+[02:07:32.242] Server  LOG      ✓ Compiled in 74ms
+[02:09:50.950] Server  LOG      ✓ Compiled in 83ms
+[02:10:18.716] Server  LOG      ✓ Compiled in 73ms
+[02:15:20.190] Server  LOG      ○ Compiling /projects ...
+[02:15:22.879] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:15:22.879] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767043161785}
+[02:15:29.918] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767043168827}
+[02:15:36.235] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767043175127}
+[02:15:47.238] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767043186135}
+[03:15:18.618] Server  LOG      ✓ Compiled in 405ms
+[03:20:16.869] Server  LOG      ✓ Compiled in 2.3s
+[03:20:23.099] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:20:23.298] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:20:23.298] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:20:23.298] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767047062217}
+[03:20:41.789] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[03:20:41.790] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767047080683}
+[03:23:46.509] Server  LOG      ✓ Compiled in 72ms
+[03:34:28.671] Server  LOG      ✓ Compiled in 349ms
+[03:34:53.996] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1767047932905}
+[03:35:42.791] Server  LOG      ✓ Compiled in 333ms

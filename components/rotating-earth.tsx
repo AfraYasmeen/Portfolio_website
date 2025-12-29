@@ -147,6 +147,43 @@ export function RotatingEarth() {
       }
     }
 
+    type ShootingStar = {
+      x: number
+      y: number
+      vx: number
+      vy: number
+      life: number
+    }
+    let shootingStars: ShootingStar[] = []  
+    const spawnShootingStar = () => {
+      shootingStars.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height * 0.5, // top half
+        vx: 8 + Math.random() * 4,
+        vy: 4 + Math.random() * 2,
+        life: 60, // frames
+      })
+    }
+    const drawShootingStars = (ctx: CanvasRenderingContext2D) => {
+        ctx.strokeStyle = "rgba(255, 255, 255, 0.8)"
+        ctx.lineWidth = 2
+
+        shootingStars.forEach((star, index) => {
+          ctx.beginPath()
+          ctx.moveTo(star.x, star.y)
+          ctx.lineTo(star.x - star.vx * 3, star.y - star.vy * 3)
+          ctx.stroke()
+
+          star.x += star.vx
+          star.y += star.vy
+          star.life--
+
+          if (star.life <= 0) {
+            shootingStars.splice(index, 1)
+          }
+        })
+      }
+
     const animate = () => {
       // Clear canvas
       ctx.clearRect(0, 0, canvas.width, canvas.height)
@@ -184,6 +221,13 @@ export function RotatingEarth() {
 
         // Draw stars in night sky
         drawStars(ctx, nightProgress)
+        // Occasionally spawn shooting stars
+        drawShootingStars(ctx)
+
+        // Random chance to spawn (≈ once every 2–4 seconds)
+        if (Math.random() < 0.00) {
+          spawnShootingStar()
+  }
       }
 
       rotation = scrollProgress * Math.PI * 4

@@ -22,7 +22,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false)
-    }, 2500)
+    }, 1500)
     return () => clearTimeout(timer)
   }, [])
 
@@ -41,7 +41,7 @@ export default function Home() {
         <ExperienceTimeline />
         <Skills />
         <Tools />
-        <ProjectsShowcase />
+        {/* <ProjectsShowcase /> */}
         <Education />
         <Accomplishments />
         <SupportMe />
