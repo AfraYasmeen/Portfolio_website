@@ -13,7 +13,6 @@ import { Accomplishments } from "@/components/accomplishments"
 import { Contact } from "@/components/contact"
 import { SupportMe } from "@/components/support-me"
 import { PageLoader } from "@/components/page-loader"
-import { GalaxyBackground } from "@/components/galaxy-background"
 import { RotatingEarth } from "@/components/rotating-earth"
 import { useState, useEffect } from "react"
 
@@ -33,7 +32,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen relative">
-      <GalaxyBackground />
       <RotatingEarth />
       <Navigation />
       <main>
