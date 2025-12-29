@@ -225,7 +225,7 @@ export function RotatingEarth() {
         drawShootingStars(ctx)
 
         // Random chance to spawn (≈ once every 2–4 seconds)
-        if (Math.random() < 0.00) {
+        if (Math.random() < 0.02) {
           spawnShootingStar()
   }
       }
